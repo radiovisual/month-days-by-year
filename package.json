@@ -1,0 +1,42 @@
+{
+  "name": "month-days-by-year",
+  "version": "1.0.0",
+  "description": "Get the number of days for each month in a given year.",
+  "license": "MIT",
+  "repository": "radiovisual/month-days-by-year",
+  "author": {
+    "name": "Michael Wuergler",
+    "email": "wuergler@gmail.com",
+    "url": "numetriclabs.com"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "leap",
+    "year",
+    "given",
+    "for",
+    "month",
+    "in",
+    "days",
+    "get",
+    "fetch"
+  ],
+  "dependencies": {
+    "month-days": "^2.1.0"
+  },
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "xo": "^0.17.0"
+  },
+  "xo": {
+    "esnext": true
+  }
+}
