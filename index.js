@@ -10,6 +10,8 @@ module.exports = year => {
 		year = new Date().getUTCFullYear();
 	}
 
+	year = parseInt(year, 10);
+
 	const months = [
 		monthDays(0, year),
 		monthDays(1, year),

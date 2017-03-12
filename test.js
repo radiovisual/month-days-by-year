@@ -32,3 +32,9 @@ test('honors leap year', t => {
 	const expected = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
 	t.deepEqual(expected, actual);
 });
+
+test('allows string years', t => {
+	const actual = fn('2000');
+	const expected = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+	t.deepEqual(expected, actual);
+});
