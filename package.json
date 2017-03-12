@@ -1,6 +1,6 @@
 {
   "name": "month-days-by-year",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get the number of days for each month in a given year.",
   "license": "MIT",
   "repository": "radiovisual/month-days-by-year",
